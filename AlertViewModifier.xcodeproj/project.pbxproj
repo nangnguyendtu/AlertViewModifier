@@ -11,6 +11,7 @@
 		040294ED2CB283F800C5BACE /* AlertViewModifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040294E22CB283F700C5BACE /* AlertViewModifier.framework */; };
 		040294F22CB283F800C5BACE /* AlertViewModifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040294F12CB283F800C5BACE /* AlertViewModifierTests.swift */; };
 		040294F32CB283F800C5BACE /* AlertViewModifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 040294E52CB283F700C5BACE /* AlertViewModifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		040294FD2CB28B7700C5BACE /* AlertViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040294FC2CB28B7700C5BACE /* AlertViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		040294E62CB283F700C5BACE /* AlertViewModifier.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AlertViewModifier.docc; sourceTree = "<group>"; };
 		040294EC2CB283F800C5BACE /* AlertViewModifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewModifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040294F12CB283F800C5BACE /* AlertViewModifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModifierTests.swift; sourceTree = "<group>"; };
+		040294FC2CB28B7700C5BACE /* AlertViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				040294E52CB283F700C5BACE /* AlertViewModifier.h */,
 				040294E62CB283F700C5BACE /* AlertViewModifier.docc */,
+				040294FC2CB28B7700C5BACE /* AlertViewModifier.swift */,
 			);
 			path = AlertViewModifier;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040294FD2CB28B7700C5BACE /* AlertViewModifier.swift in Sources */,
 				040294E72CB283F700C5BACE /* AlertViewModifier.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 		040294FA2CB283F800C5BACE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SNTD2WBLFK;
@@ -423,6 +428,7 @@
 		040294FB2CB283F800C5BACE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SNTD2WBLFK;
